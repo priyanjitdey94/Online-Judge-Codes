@@ -1,7 +1,7 @@
 
 
 /*
-  StringParser Class: Find out ranges from a string separated by ';' or ','. 
+  StringParser Class: Find out ranges from a string separated by ';' or ','.. 
   The range can be of one of the following type:
   1. [ : ]        -> no start and end value. In this case start value is 1 and end value is index of last element
   2. [ x : y ]    -> range given. Start from index x and end at index y.
@@ -18,7 +18,7 @@ private:
 }
 
 /*
-	----------------------------------------------------Method definations-----------------------------------------------
+	----------------------------------------------------Method definations------------------------------------------------
 */
 
 StringParser::StringParser()
